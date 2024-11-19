@@ -15,7 +15,7 @@
             Hashed Device Fingerprint JS
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            A lightweight JavaScript library for generating unique device fingerprints using advanced hashing techniques
+            A lightweight JavaScript library for generating unique device fingerprints with both client-side and server-side support
         </p>
         <div class="bg-gray-100 p-4 rounded-lg inline-block">
             <code class="text-gray-800">npm install hashed-device-fingerprint-js</code>
@@ -28,11 +28,16 @@
 
     <!-- Features Section -->
     <section class="container mx-auto px-4 py-12">
-        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div class="p-6 bg-gray-50 rounded-lg">
                 <i class="fas fa-shield-alt text-2xl text-gray-900 mb-4"></i>
                 <h3 class="text-xl font-semibold mb-2">Secure Hashing</h3>
                 <p class="text-gray-600">Uses advanced hashing algorithms to generate unique device fingerprints</p>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-lg">
+                <i class="fas fa-server text-2xl text-gray-900 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Server-Side Support</h3>
+                <p class="text-gray-600">Generate fingerprints on both client and server environments</p>
             </div>
             <div class="p-6 bg-gray-50 rounded-lg">
                 <i class="fas fa-bolt text-2xl text-gray-900 mb-4"></i>
@@ -87,6 +92,30 @@ generateHashedFingerprint({
         </div>
     </section>
 
+
+    <!-- Key Features Section -->
+    <section class="container mx-auto px-4 py-12 bg-gray-50">
+        <h2 class="text-3xl font-bold text-center mb-8">Key Features</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="p-6 bg-white rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold mb-4">Client-Side Features</h3>
+                <ul class="space-y-2">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Browser fingerprinting</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Device information collection</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Cross-browser compatibility</li>
+                </ul>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold mb-4">Server-Side Features</h3>
+                <ul class="space-y-2">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Server environment detection</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Request-based fingerprinting</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Node.js compatibility</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
     <!-- GitHub Link -->
     <footer class="container mx-auto px-4 py-8 text-center">
         <a href="https://github.com/moumen-soliman/hashed-device-fingerprint-js" 
