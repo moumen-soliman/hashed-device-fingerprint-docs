@@ -1,0 +1,15 @@
+{
+  "name": "hashed-device-fingerprint-docs",
+  "version": "1.0.0",
+  "description": "DOC for hashed-device-fingerprint",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hashed-device-fingerprint-js": "^1.5.3",
+    "js-sha256": "^0.11.0"
+  }
+}
