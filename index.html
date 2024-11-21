@@ -129,7 +129,7 @@ generateHashedFingerprint({
         generateHashedFingerprint()
             .then(hash => {
                 fingerprintContainer.innerHTML = `<p class="text-lg font-semibold">Fingerprint Hash:</p>
-                                              <p class="text-gray-700">${hash}</p>`;
+                                              <p class="text-gray-700 break-words">${hash}</p>`;
         })
         .catch(error => {
             fingerprintContainer.innerHTML = `<p class="text-red-600">Error generating fingerprint: ${error}</p>`;
